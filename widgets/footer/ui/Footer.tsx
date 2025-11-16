@@ -1,0 +1,1 @@
+// Componente do footer

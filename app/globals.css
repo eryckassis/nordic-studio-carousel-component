@@ -1,26 +1,137 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ============ CORES ============ */
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+
+  /* ============ FONTES ============ */
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-de-fonte);
+
+  /* ============ Z-INDEX ============ */
+  --z-base: 0;
+  --z-navigation: 2;
+  --z-titles: 2;
+  --z-controls: 10;
+
+  /* ============ BREAKPOINTS CUSTOMIZADOS ============ */
+  --breakpoint-mobile: 900px;
+  --breakpoint-desktop: 1000px;
+
+  /* ============ ANIMAÇÕES CUSTOMIZADAS ============ */
+  --animate-fade-blur-in: fade-blur-in 2s cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-fade-blur-out: fade-blur-out 2.5s cubic-bezier(0.3, 0, 0.8, 0.15);
+
+  /* ============ DURAÇÃO DAS TRANSIÇÕES ============ */
+  --duration-slide: 1500ms;
+  --duration-blur-in: 2000ms;
+  --duration-blur-out: 2500ms;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fade-blur-in {
+  from {
+    filter: blur(75px);
+    opacity: 0;
+  }
+  to {
+    filter: blur(0px);
+    opacity: 1;
   }
 }
 
+@keyframes fade-blur-out {
+  from {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  to {
+    filter: blur(75px);
+    opacity: 0;
+  }
+}
+
+@keyframes hop {
+  0% {
+    animation-timing-function: cubic-bezier(0.071, 0.505, 0.192, 0.726);
+  }
+  100% {
+    animation-timing-function: cubic-bezier(0.318, 0.852, 0.45, 0.984);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Smooth scroll para navegação */
+  scroll-behavior: smooth;
+  /* Previne ajuste de fonte no iOS */
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  /* Antialiasing para fontes mais suaves */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Previne pull-to-refresh no mobile */
+  overscroll-behavior-y: none;
+}
+
+/* Font Display (De Fonte) */
+.font-display {
+  font-family: var(--font-display), serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.1rem;
+  line-height: 0.85;
+}
+
+/* Blur Matrix Filter (usado nos títulos) */
+.blur-matrix {
+  filter: url(#blur-matrix) blur(0.25px);
+  -webkit-filter: url(#blur-matrix) blur(0.25px);
+}
+
+/* Hardware Acceleration (performance) */
+.gpu-accelerated {
+  transform: translateZ(0);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Full Viewport Height (svh para mobile) */
+.h-screen-safe {
+  height: 100svh;
+}
+
+/* Aspect Ratio para imagens */
+.aspect-carousel {
+  aspect-ratio: 16 / 9;
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
