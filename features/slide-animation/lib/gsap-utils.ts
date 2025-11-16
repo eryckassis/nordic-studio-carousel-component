@@ -46,7 +46,7 @@ export function animateFromTo(
   return gsap.fromTo(target, fromVars, toVars);
 }
 
-export function createTimeLine(config?: gsap.TimelineVars): gsap.core.Timeline {
+export function createTimeline(config?: gsap.TimelineVars): gsap.core.Timeline {
   return gsap.timeline(config);
 }
 

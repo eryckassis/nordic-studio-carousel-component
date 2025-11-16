@@ -24,7 +24,7 @@ export function NavigationButtons({
         // Layout
         "absolute inset-x-0 top-1/2 -translate-y-1/2",
         "flex items-center justify-between",
-        "px-8 z-[var(--z-controls)]",
+        "px-8 z-(--z-controls)",
         // Responsivo
         "max-md:top-[65%] max-md:left-1/2 max-md:-translate-x-1/2 max-md:w-1/2",
         "max-md:justify-center max-md:gap-4",

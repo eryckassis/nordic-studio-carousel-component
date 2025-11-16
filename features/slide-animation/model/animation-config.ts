@@ -16,7 +16,7 @@ export const TEXT_BLUR_IN_CONFIG = {
   duration: ANIMATION_DURATIONS.textBlurIn / 1000,
   ease: "power3.out",
   filter: "blur(0px)",
-  Opacity: 1,
+  opacity: 1,
 } as const;
 
 export const TEXT_BLUR_OUT_CONFIG = {
