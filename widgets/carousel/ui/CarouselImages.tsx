@@ -1,1 +1,1 @@
-// Componente da camada de imagens
+"use client";

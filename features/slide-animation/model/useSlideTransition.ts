@@ -82,7 +82,6 @@ export function useSlideTransition({
         });
       }
 
-      // 3. Novo container revela com clip-path
       animateFromTo(
         newSlideRef,
         { clipPath: clipPath.from },
@@ -106,10 +105,8 @@ export function useSlideTransition({
 
   const animateTextTransition = useCallback(
     ({ currentIndex, textContainers }: TextTransitionParams) => {
-      // Para todas as animações de texto em andamento
       killAnimations(".word");
 
-      // Blur out em todos os containers (exceto atual)
       textContainers.forEach((container, index) => {
         const words = container.querySelectorAll(".word");
 
@@ -124,7 +121,6 @@ export function useSlideTransition({
         }
       });
 
-      // Blur in no container atual
       const currentWords =
         textContainers[currentIndex]?.querySelectorAll(".word");
 
@@ -136,7 +132,6 @@ export function useSlideTransition({
           ease: TEXT_BLUR_IN_CONFIG.ease,
           overwrite: true,
           onComplete: () => {
-            // Garante estado final correto (sem inline styles)
             setInstant(currentWords, {
               filter: TEXT_BLUR_IN_CONFIG.filter,
               opacity: TEXT_BLUR_IN_CONFIG.opacity,
