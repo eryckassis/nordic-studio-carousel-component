@@ -9,7 +9,7 @@ export const dmSans = DM_Sans({
 });
 
 export const deFonte = localFont({
-  src: "../../public/fonts/DeFonte-DemiGrass.ttf",
+  src: "../../public/fonts/DeFonte-DemiGras.ttf",
   variable: "--font-de-fonte",
   display: "swap",
   weight: "600",

@@ -1,29 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  /* ============ CORES ============ */
   --color-background: #000000;
   --color-foreground: #ffffff;
 
-  /* ============ FONTES ============ */
   --font-sans: var(--font-dm-sans);
   --font-display: var(--font-de-fonte);
 
-  /* ============ Z-INDEX ============ */
   --z-base: 0;
   --z-navigation: 2;
   --z-titles: 2;
   --z-controls: 10;
 
-  /* ============ BREAKPOINTS CUSTOMIZADOS ============ */
   --breakpoint-mobile: 900px;
   --breakpoint-desktop: 1000px;
 
-  /* ============ ANIMAÇÕES CUSTOMIZADAS ============ */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
   --animate-fade-blur-in: fade-blur-in 2s cubic-bezier(0.4, 0, 0.2, 1);
   --animate-fade-blur-out: fade-blur-out 2.5s cubic-bezier(0.3, 0, 0.8, 0.15);
 
-  /* ============ DURAÇÃO DAS TRANSIÇÕES ============ */
   --duration-slide: 1500ms;
   --duration-blur-in: 2000ms;
   --duration-blur-out: 2500ms;

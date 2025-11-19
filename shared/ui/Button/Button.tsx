@@ -3,7 +3,7 @@ import { cn } from "@/shared/lib/cn";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "outline" | "ghost" | "solid";
-  size?: "sm" | "md" | "lg";
+  size?: "sm" | "md" | "lg" | "xl";
 }
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
@@ -22,17 +22,19 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       sm: "p-3",
       md: "p-4",
       lg: "p-5",
+      xl: "p-8",
     };
 
     return (
       <button
         ref={ref}
         className={cn(
-          // Base styles
           "flex items-center justify-center rounded transition-all duration-200",
+
           "disabled:opacity-50 disabled:cursor-not-allowed",
+
           "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-black",
-          // Variantes
+
           variants[variant],
           sizes[size],
           className

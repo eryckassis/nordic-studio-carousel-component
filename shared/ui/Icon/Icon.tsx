@@ -22,11 +22,9 @@ export function Icon({ name, className, "aria-label": ariaLabel }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="24"
       viewBox="0 -960 960 960"
-      width="24"
       fill="currentColor"
-      className={cn("transition-colors", className)}
+      className={cn("w-6 h-6", "transition-colors", className)}
       aria-label={ariaLabel}
       role="img"
     >
