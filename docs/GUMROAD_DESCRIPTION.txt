@@ -1,0 +1,31 @@
+A premium Next.js 16 carousel component featuring infinite smooth scrolling with synchronized GSAP text transitions. Production-ready code inspired by Awwwards-winning designs.
+
+→→→ WHAT'S INSIDE?
+
+Complete Next.js 16 project with:
+- Infinite smooth scrolling carousel with seamless transitions
+- GSAP-powered animations with custom easing curves
+- Synchronized text and image transitions
+- Fully responsive design (mobile, tablet, desktop)
+- TypeScript implementation with Feature-Sliced Design architecture
+
+Comprehensive documentation including:
+- Step-by-step installation guide
+- Detailed usage examples and customization tutorials
+- Technical deep-dive into architecture and patterns
+- FAQ and troubleshooting guide
+
+Additional resources:
+- Testing suite (Vitest + Playwright)
+- 5 sample slides with optimized images
+- Commercial license for unlimited projects
+- Lifetime updates and email support
+
+Gain complete access to production-ready code showcasing modern React patterns, advanced GSAP animations, and professional component architecture.
+
+By supporting this project, you get a battle-tested solution that saves weeks of development time while learning best practices in Next.js, TypeScript, and animation design.
+
+
+🔗 Live Demo: https://carousel-gsap-8ds8xfiq4-eryck-assis-projects.vercel.app
+
+✅ Perfect for portfolios, product showcases, creative agencies, and premium web experiences.

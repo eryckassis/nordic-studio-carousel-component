@@ -1,0 +1,62 @@
+ADDITIONAL DETAILS FOR GUMROAD
+
+---
+
+Detail 1:
+Title: Requirements
+Content: Node.js 18+ and npm 9+ required. Basic knowledge of React and Next.js recommended.
+
+---
+
+Detail 2:
+Title: What You'll Get
+Content: Complete source code, 6 comprehensive documentation guides (15,000+ words), testing suite, sample assets, and commercial license for unlimited projects.
+
+---
+
+Detail 3:
+Title: Tech Stack
+Content: Built with Next.js 16, React 19, TypeScript 5, GSAP 3.13, Tailwind CSS 4, Vitest, and Playwright.
+
+---
+
+Detail 4:
+Title: License & Usage
+Content: Commercial license included - use in unlimited client projects, SaaS applications, and commercial websites. Cannot resell or redistribute as standalone product.
+
+---
+
+Detail 5:
+Title: Support & Updates
+Content: Lifetime free updates, email support with 48-hour response time, and access to all future versions at no extra cost.
+
+---
+
+Detail 6:
+Title: Installation Time
+Content: 5-10 minutes for fresh installation. Extract, npm install, npm run dev - you're ready to customize.
+
+---
+
+Detail 7:
+Title: Performance
+Content: Optimized for 60fps animations, Lighthouse score 90+, fully responsive, and production-ready with Next.js Image optimization.
+
+---
+
+Detail 8:
+Title: Documentation Included
+Content: Installation guide, usage examples, customization tutorials, technical architecture docs, FAQ with troubleshooting, and launch checklist.
+
+---
+
+RECOMMENDED SETUP (copy to Gumroad):
+
+Requirement | Node.js 18+ and npm 9+ required
+License Type | Commercial - unlimited projects
+Installation | 5-10 minutes setup time
+Updates | Lifetime free updates included
+Support | Email support (48h response)
+Documentation | 6 comprehensive guides (15,000+ words)
+Tech Stack | Next.js 16 + React 19 + TypeScript 5 + GSAP 3.13
+Performance | 60fps animations, Lighthouse 90+

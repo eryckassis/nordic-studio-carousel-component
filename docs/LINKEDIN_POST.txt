@@ -1,0 +1,22 @@
+🎡 Acabei de lançar meu novo produto: Infinite Carousel Text Transitions
+
+Após semanas desenvolvendo e documentando, finalmente está disponível um componente de carousel premium para Next.js 16 com animações GSAP de nível Awwwards.
+
+O que torna este produto diferente?
+
+→ Código production-ready, não apenas um tutorial
+→ Arquitetura Feature-Sliced Design com TypeScript
+→ Animações sincronizadas texto + imagem a 60fps
+→ Documentação completa (15.000+ palavras)
+→ Testes incluídos (Vitest + Playwright)
+
+Economize semanas de desenvolvimento e aprenda padrões modernos de React no processo.
+
+🔗 Demo ao vivo: https://carousel-gsap-8ds8xfiq4-eryck-assis-projects.vercel.app
+
+💎 Disponível na Gumroad: [SEU_LINK_GUMROAD_AQUI]
+
+Licença comercial incluída → Use em projetos ilimitados
+Updates gratuitos → Lifetime access
+
+#webdev #nextjs #react #gsap #typescript #webdesign #frontenddevelopment
