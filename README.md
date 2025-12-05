@@ -7,7 +7,7 @@
 <br/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=🎡+Premium+Carousel+Component;Built+for+Award-Winning+Websites" alt="Typing SVG" />
+ 
 </a>
 
 <br/><br/>
