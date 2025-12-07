@@ -406,7 +406,7 @@ Share license with others
   <br/><br/>
   <b>Email Support</b>
   <br/>
-  <sub>your-email@example.com</sub>
+  <sub>eng.assis.dev@gmail.com</sub>
 </td>
 <td align="center">
   <img src="https://cdn-icons-png.flaticon.com/128/2991/2991148.png" width="40"/>
